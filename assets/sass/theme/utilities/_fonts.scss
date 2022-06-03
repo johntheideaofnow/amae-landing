@@ -1,0 +1,92 @@
+$font-path: '../fonts/';
+@font-face {
+    font-family: $gotham-bl;
+    src: url('#{$font-path}GothamRounded-Bold.woff2') format('woff2'),
+        url('#{$font-path}GothamRounded-Bold.woff') format('woff'),
+        url('#{$font-path}GothamRounded-Bold.ttf') format('truetype'),
+        url('#{$font-path}GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font-path: '../fonts/';
+@font-face {
+    font-family: $gotham-bk;
+    src: url('#{$font-path}GothamRounded-Book.woff2') format('woff2'),
+        url('#{$font-path}GothamRounded-Book.woff') format('woff'),
+        url('#{$font-path}GothamRounded-Book.ttf') format('truetype'),
+        url('#{$font-path}GothamRounded-Book.svg#GothamRounded-Book') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font-path: '../fonts/';
+@font-face {
+    font-family: $gotham-lt;
+    src: url('#{$font-path}GothamRounded-Light.woff2') format('woff2'),
+        url('#{$font-path}GothamRounded-Light.woff') format('woff'),
+        url('#{$font-path}GothamRounded-Light.ttf') format('truetype'),
+        url('#{$font-path}GothamRounded-Light.svg#GothamRounded-Light') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font-path: '../fonts/';
+@font-face {
+    font-family: $gotham-md;
+    src: url('#{$font-path}GothamRounded-Medium.woff2') format('woff2'),
+        url('#{$font-path}GothamRounded-Medium.woff') format('woff'),
+        url('#{$font-path}GothamRounded-Medium.ttf') format('truetype'),
+        url('#{$font-path}GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font-path: '../fonts/';
+@font-face {
+    font-family: $opensans-bl;
+    src: url('#{$font-path}OpenSans-Bold.woff2') format('woff2'),
+        url('#{$font-path}OpenSans-Bold.woff') format('woff'),
+        url('#{$font-path}OpenSans-Bold.ttf') format('truetype'),
+        url('#{$font-path}OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font-path: '../fonts/';
+@font-face {
+    font-family: $opensans-lt;
+    src: url('#{$font-path}OpenSans-Light.woff2') format('woff2'),
+        url('#{$font-path}OpenSans-Light.woff') format('woff'),
+        url('#{$font-path}OpenSans-Light.ttf') format('truetype'),
+        url('#{$font-path}OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+$font-path: '../fonts/';
+@font-face {
+    font-family: $opensans-rg;
+    src: url('#{$font-path}OpenSans-Regular.woff2') format('woff2'),
+        url('#{$font-path}OpenSans-Regular.woff') format('woff'),
+        url('#{$font-path}OpenSans-Regular.ttf') format('truetype'),
+        url('#{$font-path}OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+

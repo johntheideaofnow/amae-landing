@@ -1,0 +1,250 @@
+/* ------------------------------ BT FUNCTIONS ------------------------------ */
+/* --------------------------------- BT SCSS -------------------------------- */
+/* ----------------------------- VARIABLES THEME ---------------------------- */
+/* --------------------------- BOOTSTRAP VARIABLE --------------------------- */
+/* ------------------------------- BREAKPOINTS ------------------------------ */
+/* --------------------------------- COLORS --------------------------------- */
+/* -------------------------------- COLORS BT ------------------------------- */
+/* ---------------------------------- FONTS --------------------------------- */
+/* ---------------------------------- ICONS --------------------------------- */
+/* -------------------------------- UTILITIES ------------------------------- */
+/* -------------------------------- UTILITIES ------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                MEDIAS QUERY                                */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                               String Replace                               */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                  FONT FACE                                 */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                BORDER METHOD                               */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                              TRANSITION METHOD                             */
+/* -------------------------------------------------------------------------- */
+/* ---------------------------------- DFLEX --------------------------------- */
+@font-face {
+  font-family: "Gotham Rounded Bold";
+  src: url("../fonts/GothamRounded-Bold.woff2") format("woff2"), url("../fonts/GothamRounded-Bold.woff") format("woff"), url("../fonts/GothamRounded-Bold.ttf") format("truetype"), url("../fonts/GothamRounded-Bold.svg#GothamRounded-Bold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: url("../fonts/GothamRounded-Book.woff2") format("woff2"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg#GothamRounded-Book") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded Light";
+  src: url("../fonts/GothamRounded-Light.woff2") format("woff2"), url("../fonts/GothamRounded-Light.woff") format("woff"), url("../fonts/GothamRounded-Light.ttf") format("truetype"), url("../fonts/GothamRounded-Light.svg#GothamRounded-Light") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded Medium";
+  src: url("../fonts/GothamRounded-Medium.woff2") format("woff2"), url("../fonts/GothamRounded-Medium.woff") format("woff"), url("../fonts/GothamRounded-Medium.ttf") format("truetype"), url("../fonts/GothamRounded-Medium.svg#GothamRounded-Medium") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype"), url("../fonts/OpenSans-Light.svg#OpenSans-Light") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg#OpenSans-Regular") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Gotham Rounded Bold";
+}
+
+h1, .h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.375rem;
+  font-family: "Open Sans Regular";
+}
+
+.title-big {
+  font-size: 3rem;
+}
+
+.text-red {
+  color: #D04461;
+}
+
+.text-blue {
+  color: #5FC4F3;
+}
+
+.text-gray {
+  color: #496582;
+}
+
+.subtitle {
+  font-size: 1.875rem;
+  font-family: "Open Sans Regular";
+}
+
+.text-big {
+  font-size: 2.188rem;
+}
+
+/* --------------------------------- COLORS --------------------------------- */
+/* -------------------------------- LIBRARIES ------------------------------- */
+/* ---------------------------------- THEME --------------------------------- */
+/* ------------------------------- COMPONENTS ------------------------------- */
+/* --------------------------------- LAYOUTS -------------------------------- */
+/* ---------------------------------- PAGES --------------------------------- */
+.bg-gray-soft {
+  background-color: #f6f7f9;
+}
+
+.bg-gray-dark {
+  background-color: #496582;
+}
+
+header nav {
+  height: 89px;
+  border-bottom: 1px solid #496582;
+}
+
+.button-light {
+  background-color: #5FC4F3;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-family: "Open Sans Bold";
+  transition: 0.3s;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.button-light:hover {
+  background-color: #496582;
+  color: #fff;
+}
+
+.am-banner-gray {
+  color: #fff;
+  padding: 4.625rem 0;
+}
+.am-banner-gray span {
+  font-size: 1.875rem;
+}
+.am-banner-gray p {
+  max-width: 37%;
+  font-size: 1rem;
+}
+.am-banner-gray .ma-logo {
+  width: 82px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.am-icon-image {
+  display: flex;
+  align-items: flex-end;
+}
+.am-icon-image .am-icon {
+  left: -1rem;
+}
+
+.am-list-beneficios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+}
+.am-list-beneficios li p {
+  font-size: 1.875rem;
+  color: #496582;
+  line-height: 1.3;
+}
+
+.ma-section-fb-rating {
+  padding-top: 5.75rem;
+}
+.ma-section-fb-rating .ma-card-rating {
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  padding-top: 5.75rem;
+}
+.ma-section-fb-rating .ma-card-rating .img-rating {
+  max-width: 640px;
+}
+.ma-section-fb-rating .ma-fb-rating-cards {
+  padding: 6rem 5rem 5.6rem 5rem;
+}
+.ma-section-fb-rating .ma-fb-rating-cards .ma-rating-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  position: relative;
+  padding: 4rem 1.8rem 1.3rem 1.8rem;
+  min-height: 251px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ma-section-fb-rating .ma-fb-rating-cards .ma-rating-card img {
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  transform: translateX(-50px);
+}
+.ma-section-fb-rating .ma-fb-rating-cards .ma-rating-card p {
+  color: #496582;
+  font-size: 1.18rem;
+  font-family: "Open Sans Light";
+  text-align: center;
+}
+.ma-section-fb-rating .ma-fb-rating-cards .ma-rating-card .small {
+  font-size: 0.875rem;
+}
+.ma-section-fb-rating h2 {
+  color: #496582;
+  font-size: 2.188rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.ma-section-porque-amae {
+  padding-top: 5.75rem;
+}
+
+@media (min-width: 1200px) {
+  .am-section .container, .am-section .container-lg, .am-section .container-md, .am-section .container-sm, .am-section .container-xl {
+    max-width: 1160px !important;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */

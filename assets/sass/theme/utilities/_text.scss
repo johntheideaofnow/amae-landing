@@ -1,0 +1,60 @@
+html{
+    
+    font-size: 16px; 
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: $gotham-bl;
+}
+h4,.h4,p{
+
+}
+h1,h2,h3,.h1,.h2,.h3,a{
+    
+}
+h1,.h1{
+    font-size: 3rem;
+}
+h2,.h2{
+    $font-size: 2.188
+}
+h3, .h3 {
+
+}
+p{
+    font-size: 1.375rem;
+    font-family: $opensans-rg;
+}
+a{
+
+}
+
+.title-big{
+    font-size: 3rem;
+}
+
+.text-red{
+    color: $magenta;
+}
+
+.text-blue{
+    color: $blue;
+}
+.text-gray{
+    color: $gray-dark;
+}
+
+.subtitle{
+    font-size: 1.875rem;
+    font-family: $opensans-rg;
+}
+
+.text-big{
+    font-size: 2.188rem;
+}
+
+@media (max-width:600px) {
+   
+}
+
+/* --------------------------------- COLORS --------------------------------- */
