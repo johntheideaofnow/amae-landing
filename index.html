@@ -11,6 +11,38 @@
 </head>
 <body>
     <!-------------------------- HEADER -------------------------->
+
+
+
+    /////////////////////////
+
+
+    <h1>Styling Radio & Checkbox Input Fields</h1>
+
+    <h2>Create custom styles for inputs with CSS only</h2>
+
+    <form>
+        
+
+        <div class="content">
+                <div class="">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="checkbox1" name="checkbox01">
+                            <label for="checkbox1"><span>Empty</span></label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox2" name="checkbox01" checked="checked">
+                            <label for="checkbox2"><span>Checked</span></label>
+                        </li>
+                    </ul>
+                    
+                </div>
+        </div>
+    </form>
+
+
+    ///////////////////////////
     <header>
         <nav>
             <div class="am-section h-100 d-flex align-items-center">
@@ -79,7 +111,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <picture>
-                            <source srcset="assets/images/desktop\amae_lp_imagenes/amae_lp_img2.jpg" alt="" title="" media="(max-width:600px)">
+                            <source srcset="assets/images/desktop/amae_lp_imagenes/amae_lp_img2.jpg" alt="" title="" media="(max-width:600px)">
                             <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_img2.png" class="img-fluid am-image" alt="">
                         </picture>
                         <p class="text-big text-gray px-5">Dietas y Ejercicios a través de nuestra App AMAE</p>
@@ -116,45 +148,47 @@
     <!-------------------------- SECTION FB RATING-------------------------->
 
     <section class="am-section ma-section-fb-rating">
-        <div class="container ma-card-rating">
-            <div class="row">
-                <div class="col-12 d-flex flex-column align-items-center">
-                    <h2 class="mb-5">El único y más querido seguro que protege a <br>personas con diabetes tipo 2</h2>
-                    <img src="assets/images/desktop/amae_lp_iconos/amae_lp_fb_rating.svg" alt="" class="img-rating">
-                </div>
-            </div>
-            <!-- Cards -->
-            <div class="row ma-fb-rating-cards">
-                <!-- Item -->
-                <div class="col-md-4 px-1">
-                    <div class="ma-rating-card ">
-                        <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_foto1.png" alt="">
-                        <p>Producto innovador, al alcance de todos y con el respaldo de los expertos en Seguros de salud.</p>
-                        <p class="small">—@blanca.delgadocisneros</p>
+        <div class="container">
+            <div class="ma-card-rating">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center">
+                        <h2 class="mb-5">El único y más querido seguro que protege a <br>personas con diabetes tipo 2</h2>
+                        <img src="assets/images/desktop/amae_lp_iconos/amae_lp_fb_rating.svg" alt="" class="img-rating">
                     </div>
                 </div>
-                <!-- Item -->
-                <div class="col-md-4 px-1">
-                    <div class="ma-rating-card ">
-                        <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_foto2.png" alt="">
-                        <p>A great program that focuses on helping diabetics in Mexico!</p>
-                        <p class="small">— @anil.sanwal.5</p>
+                <!-- Cards -->
+                <div class="row ma-fb-rating-cards">
+                    <!-- Item -->
+                    <div class="col-md-4 px-1">
+                        <div class="ma-rating-card ">
+                            <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_foto1.png" alt="">
+                            <p>Producto innovador, al alcance de todos y con el respaldo de los expertos en Seguros de salud.</p>
+                            <p class="small">—@blanca.delgadocisneros</p>
+                        </div>
+                    </div>
+                    <!-- Item -->
+                    <div class="col-md-4 px-1">
+                        <div class="ma-rating-card ">
+                            <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_foto2.png" alt="">
+                            <p>A great program that focuses on helping diabetics in Mexico!</p>
+                            <p class="small">— @anil.sanwal.5</p>
+                        </div>
+                    </div>
+                    <!-- Item -->
+                    <div class="col-md-4 px-1">
+                        <div class="ma-rating-card ">
+                            <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_foto3.png" alt="">
+                            <p>Sus consejos son excelentes y aumentan nuestro ánimo de vivir bien</p>
+                            <p class="small">— @adrianavazquez</p>
+                        </div>
                     </div>
                 </div>
-                <!-- Item -->
-                <div class="col-md-4 px-1">
-                    <div class="ma-rating-card ">
-                        <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_foto3.png" alt="">
-                        <p>Sus consejos son excelentes y aumentan nuestro ánimo de vivir bien</p>
-                        <p class="small">— @adrianavazquez</p>
-                    </div>
-                </div>
-                
+
             </div>
         </div>
     </section>
 
-    <!-------------------------- FOOTER -------------------------->
+    <!-------------------------- POR QUE AMAE -------------------------->
 
     
     <section class="am-section ma-section-porque-amae">
@@ -164,14 +198,123 @@
                     <h2 class="title-big text-gray text-center mb-5">¿Por qué AMAE?</h2>
                 </div>
             </div>
+            <div class="row">
+                <!-- Card 1-->
+                <div class="col-md-4">
+                    <div class="am-card-porque-amae">
+                        <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_img3.jpg" alt="" class="img-fluid w-100">
+                        <div class="card-bottom">
+                            <h3>Beneficio 1</h3>
+                            <p>Conocer el nivel de este indicador te permitirá conocer la etapa de la enfermedad para tomar acciones oportunas y evitar las complicaciones o mantener un estado de salud óptimo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2-->
+                <div class="col-md-4">
+                    <div class="am-card-porque-amae">
+                        <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_img4.jpg" alt="" class="img-fluid w-100">
+                        <div class="card-bottom">
+                            <h3>Beneficio 2</h3>
+                            <p>Recibirás Dietas y Rutinas de Ejercicios de forma personalizada. Nuestras Dietas estarán diseñadas de acuerdo a la condición física del paciente.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3-->
+                <div class="col-md-4">
+                    <div class="am-card-porque-amae">
+                        <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_img5.jpg" alt="" class="img-fluid w-100">
+                        <div class="card-bottom">
+                            <h3>Beneficio 3</h3>
+                            <p>En caso de presentar cualquiera de las seis complicaciones especificadas se te pagará el monto que hayas escogido como suma asegurada.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
+    <!-------------------------- POR QUE AMAE -------------------------->
+    
+    <section class="am-section am-section-sabias-que">
+        <picture>
+            <source srcset="assets/images/desktop/amae_lp_imagenes/amae_lp_img6-1.png" alt="" title="" media="(max-width:600px)">
+            <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_img6-1.png" class="img-fluid bg-img" alt="">
+        </picture>
+
+
+        <div class="container ma-banner-text-section">
+            <div class="row">
+                <div class="col-as">
+                    <h2 class="text-center title-big text-gray-dark">¿Sabías qué….</h2>
+                    <p class="text-center text-gray-text" >Todo lo que quieres saber de AMAE</p>
+                </div>
+                <div class="col-6 offset-6">
+                        <div class="am-sabias-card">
+                            <div class="mb-3">
+                                <img src="assets/images/desktop/amae_lp_logos/amae_lp_logo_cellent_color.png" alt="" class="img-fluid">
+                                <img src="assets/images/desktop/amae_lp_logos/amae_lp_logo_graldesalud_color.png" alt="" class="img-fluid">
+                            </div>
+                            <p>AMAE está respaldado por General de Seguros ? Seguro por el cuál ganó un premio a la iniciativa, innovación y excelencia: CELENT MODEL INSURER 2021?</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- FOOTER BANNER -------------------------->
+
+   
+    <section class="am-section am-banner-footer">
+        <picture>
+            <source srcset="assets/images/desktop/amae_lp_imagenes/amae_lp_banner1.jpg" alt="" title="" media="(max-width:600px)">
+            <img src="assets/images/desktop/amae_lp_imagenes/amae_lp_banner1.jpg" class="img-fluid bg-img" alt="">
+        </picture>
+
+
+        <div class="container ma-banner-text-section">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-white title-big">¿Estás diagnosticado con Diabetes? <br>¡Nosotros SÍ te cubrimos!</h2>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="" class="button-light mt-4">Cotiza ahora</a>
+                </div>
+        </div>
 
     </main>
     <!-------------------------- FOOTER -------------------------->
-    <footer>
+    <footer class="am-section">
+        <div class="container">
 
+            <div class="row">
+                <div class="col-12 logos">
+                    <img src="assets/images/desktop/amae_lp_logos/amae_lp_logo3.svg" class="img-fluid" alt="">
+                    <img src="assets/images/desktop/amae_lp_logos/amae_lp_logo-white.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="">AVISO DE PRIVACIDAD</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">TÉRMINOS Y CONDICIONES</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">PROCESO DE INDEMNIZACIÓN</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">PREGUNTAS <br>FRECUENTES</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">CONDICIONES <br>GENERALES</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">DECLARACIONES</a>
+                </div>
+            </div>
+
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>

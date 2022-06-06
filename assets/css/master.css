@@ -130,6 +130,14 @@ p {
   background-color: #496582;
 }
 
+.text-gray-text {
+  color: #707070;
+}
+
+.text-gray-dark {
+  color: #496582;
+}
+
 header nav {
   height: 89px;
   border-bottom: 1px solid #496582;
@@ -239,11 +247,221 @@ header nav {
 
 .ma-section-porque-amae {
   padding-top: 5.75rem;
+  padding-bottom: 5.75rem;
+}
+
+.am-card-porque-amae .card-bottom {
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 0 0 1rem 1rem;
+  border-bottom: 2px solid #496582;
+  border-left: 2px solid #496582;
+  border-right: 2px solid #496582;
+}
+.am-card-porque-amae .card-bottom h3 {
+  font-size: 1.3rem;
+  color: #5FC4F3;
+  margin-bottom: 2rem;
+}
+.am-card-porque-amae .card-bottom p {
+  font-size: 0.87rem;
+  color: #707070;
+  margin: 0;
+  min-height: 105px;
+}
+
+.am-section-sabias-que {
+  position: relative;
+  background-color: #e4e4e4;
+  padding-top: 6rem;
+}
+.am-section-sabias-que .ma-banner-text-section {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.am-section-sabias-que .bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.am-section-sabias-que .am-sabias-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  font-size: 1.56rem;
+  color: #496582;
+  padding: 34px 70px 34px 70px;
+  text-align: center;
+  max-width: 536px;
+  margin: 80px auto;
+}
+
+.am-banner-footer {
+  position: relative;
+}
+.am-banner-footer .ma-banner-text-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+footer {
+  background-color: #5FC4F3;
+  padding: 90px 0;
+}
+footer .logos {
+  text-align: center;
+  margin-bottom: 90px;
+}
+footer .logos img {
+  height: 100px;
+  width: auto;
+  display: inline-block;
+}
+footer .logos img:first-child {
+  margin-right: 195px;
+}
+footer a {
+  color: #fff;
+  font-size: 0.875rem;
+  text-align: center;
+  text-decoration: none;
+  display: block;
 }
 
 @media (min-width: 1200px) {
   .am-section .container, .am-section .container-lg, .am-section .container-md, .am-section .container-sm, .am-section .container-xl {
     max-width: 1160px !important;
+  }
+}
+/*** This page styles (unnecessary) ***/
+.content {
+  width: 50%;
+  padding: 1em;
+  box-sizing: border-box;
+  float: left;
+}
+
+fieldset {
+  padding: 2em;
+  border-color: #d4d4d4;
+  border-style: solid;
+  border-width: 2px;
+  background: #fff;
+}
+
+legend {
+  color: #bfbfbf;
+  padding: 0.3em 0.6em;
+  border: 2px solid #d4d4d4;
+  background: #fff;
+  font-size: 1.3em;
+}
+
+legend.radio {
+  border-radius: 50px;
+}
+
+.container ul {
+  margin-top: 0;
+  padding-left: 0em;
+}
+
+.container ul li {
+  list-style-type: none;
+}
+
+.container ul + ul {
+  margin-bottom: 0;
+}
+
+.container ul + ul > li + li label {
+  margin-bottom: 0;
+}
+
+/*** Styling Radio & Checkbox Input Fields (start here) ***/
+label {
+  font-weight: 600;
+  color: #777777;
+  margin-bottom: 11px;
+  width: 100%;
+  float: left;
+  cursor: pointer;
+  padding: 0 0.6em;
+  box-sizing: border-box;
+  background: #e6e6e6;
+  transition: all 0.5s ease 0s;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label {
+  line-height: 3em;
+}
+
+input[type=checkbox]:disabled + label {
+  color: #ccc !important;
+  cursor: not-allowed;
+}
+
+input[type=checkbox]:checked:disabled + label:after {
+  border-color: #ccc;
+}
+
+input[type=checkbox] + label:before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-right: 0.5em;
+  border: 2px solid #ccc;
+  background: #fff;
+  margin-top: 0.5em;
+}
+
+input[type=checkbox]:checked + label {
+  background: #c1eec2;
+}
+
+input[type=checkbox]:checked + label:after {
+  content: "";
+  width: 14px;
+  height: 7px;
+  float: left;
+  margin-left: 0.5em;
+  border-right: 0;
+  border-top: 0;
+  transform: rotate(-55deg);
+}
+
+input[type=radio]:checked + label:before,
+input[type=checkbox]:checked + label:before {
+  border-color: #0fbf12;
+}
+
+input[type=radio]:checked:disabled + label,
+input[type=checkbox]:checked:disabled + label {
+  background: #ccc;
+  color: #fff !important;
+}
+
+input[type=radio]:checked:disabled + label:before,
+input[type=checkbox]:checked:disabled + label:before {
+  border-color: #bdbdbd;
+}
+
+@media (max-width: 650px) {
+  .content {
+    width: 100%;
   }
 }
 
